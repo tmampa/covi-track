@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Covi-Track
+> Covi-Track is a web application that fectches covid data from API and renders on the screen. It shows all countries with the confirmed covid cases on the homepage, Users can select any country and goto the details page. Details page shows other details for that specific country like recovered cases, confirmed cases, deaths.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Home Page<h2>
 
-## Available Scripts
+![Homepage](./src/assets/homepage.png)
 
-In the project directory, you can run:
+<h2>Details Page<h2>
 
-### `npm start`
+![Details](./src/assets/details.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Search<h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Search](./src/assets/search.png)
 
-### `npm test`
+## 🏗️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- CSS
+- JavaScript
+- React JS
+- JSX
+- [Narrativa API](https://covid19tracking.narrativa.com/index_en.html)
 
-### `npm run build`
+## 🖇️ LiveLink
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Heroku App]()
+- [Netlify App](/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛫 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running, follow the steps in Setup below.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Basic knowledge of HTML, CSS, and JavaScript.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+[Download the ZIP from this location](https://github.com/tmampa/covi-track), or run the following [git](https://github.com/tmampa/covi-track.git) command to clone the files to your machine:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/tmampa/covi-track.git
+```
 
-## Learn More
+- Once the files are on your machine, open the _Leaderboard_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Installation & Set Up
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Install Node Modules
 
-### Code Splitting
+   ```sh
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Start the development server
 
-### Analyzing the Bundle Size
+   ```sh
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-### Making a Progressive Web App
+## 🚀 Building and Running for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Generate a full static production build
 
-### Advanced Configuration
+   ```sh
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🧪 Running Tests with Jest
 
-### Deployment
+1. Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```sh
+   npm run test
+   ```
 
-### `npm run build` fails to minify
+### 💉 Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The following tools help make easier to work with sample code.
+
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [NVM](https://github.com/nvm-sh/nvm)
+
+## 👨🏾‍💻 Author
+
+👤 **Tshephang Mampa**
+
+- GitHub: [tmampa](https://github.com/tmampa)
+- LinkedIn: [Tshephang Mampa](https://linkedin.com/tshephangmampa)
+- Twitter: [Tshephangm\_](https://twitter.com/tshephangm_)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## ❤️ Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thank you for Microverse for providing the required materials
+
+## 📝 License

@@ -7,9 +7,10 @@ const FETCH_DATA = 'covidMetrics/covid19Data/FETCH_DATA';
 
 // actions
 
-const fetchData = (payload) => ({
+const fetchData = (Countries, Global) => ({
   type: FETCH_DATA,
-  payload,
+  Countries,
+  Global,
 });
 
 // APIs-functions
@@ -17,20 +18,26 @@ const fetchData = (payload) => ({
 export const fetchDataApi = () => async (dispatch) => {
   const returnValue = await Axios.get(baseURL);
   const {
-    data: { Countries },
+    data: { Countries, Global },
   } = returnValue;
-  // console.log(Countries.length)
-  dispatch(fetchData(Countries));
+  dispatch(fetchData(Countries, Global));
 };
 
 // initial-state
-const initialState = [];
+const initialState = {
+  countriesData: [],
+  globalData: {},
+};
 
 // reducer
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA:
-      return action.payload;
+      return {
+        ...state,
+        countriesData: action.Countries,
+        globalData: action.Global,
+      };
     default:
       return state;
   }

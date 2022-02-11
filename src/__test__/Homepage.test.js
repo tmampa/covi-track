@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
-import HomePage from '../components/HomePage';
+import Homepage from '../components/Homepage';
 import store from '../redux/configureStore';
 
 describe('HomePage tests', () => {

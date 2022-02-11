@@ -24,7 +24,7 @@
 ## 🖇️ LiveLink
 
 - [Heroku App]()
-- [Netlify App](https://covid19-metrics-thecodechaser.netlify.app)
+- [Netlify App](https://agitated-rosalind-9729ed.netlify.app/)
 
 ## 🛫 Getting Started
 

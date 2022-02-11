@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
-import Countries from '../components/homePageComponents/Countries';
+import Countries from '../components/homepageComponents/Countries';
 
 describe('Countries tests', () => {
   test('should render', () => {

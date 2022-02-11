@@ -22,8 +22,6 @@
 - [Narrativa API](https://covid19tracking.narrativa.com/index_en.html)
 
 ## 🖇️ LiveLink
-
-- [Heroku App]()
 - [Netlify App](https://agitated-rosalind-9729ed.netlify.app/)
 
 ## 🛫 Getting Started

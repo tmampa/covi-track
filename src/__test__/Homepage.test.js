@@ -7,15 +7,15 @@ import store from '../redux/configureStore';
 
 describe('HomePage tests', () => {
   test('should render', () => {
-    const homePage = render(
+    const homepage = render(
       <Provider store={store}>
         <BrowserRouter>
-          <HomePage />
+          <Homepage />
         </BrowserRouter>
         ,
       </Provider>,
     );
 
-    expect(homePage).toMatchSnapshot();
+    expect(homepage).toMatchSnapshot();
   });
 });
